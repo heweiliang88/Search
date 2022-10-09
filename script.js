@@ -14,7 +14,7 @@ $(function () {
       var sign = CryptoJS.SHA256(str1).toString(CryptoJS.enc.Hex);
 
       $.ajax({
-        url: "http://openapi.youdao.com/api",
+        url: "https://openapi.youdao.com/api",
         type: "post",
         dataType: "jsonp",
         data: {
