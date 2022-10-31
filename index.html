@@ -1,32 +1,13 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>多语言搜索引擎</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Vite + Vue + TS</title>
   </head>
-
   <body>
-    <div class="container">
-      <h1>多语言搜索引擎</h1>
-      <input
-        type="text"
-        class="search inp"
-        placeholder="Google搜索"
-        maxlength="30"
-      />
-      <div class="btn-group">
-        <button class="fyCnbtn btn">Google中文</button>
-        <button class="fyEnbtn btn">Google英文</button>
-        <button class="fyJabtn btn">Google日文</button>
-        <button class="fyKobtn btn">Google韩文</button>
-        <button class="fyRubtn btn">Google俄文</button>
-      </div>
-    </div>
-    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
-    <script src="https://cdn.bootcdn.net/ajax/libs/crypto-js/4.0.0/crypto-js.js"></script>
-    <script src="./script.js"></script>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
